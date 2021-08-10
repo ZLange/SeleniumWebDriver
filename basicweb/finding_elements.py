@@ -7,8 +7,7 @@ class FindByIdName():
 
     def test(self):
         baseurl = 'https://courses.letskodeit.com/practice'
-        # driver = webdriver.Chrome()
-        driver = webdriver.Chrome(executable_path="C:\\Users\\langezai\\PycharmProjects\\drivers\\chromedriver.exe")
+        driver = webdriver.Chrome()
         driver.get(baseurl)
         elementbyid = driver.find_element_by_id("name")
 
