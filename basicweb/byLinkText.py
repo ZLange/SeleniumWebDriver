@@ -8,7 +8,7 @@ class FindByLinkText():
     def test(self):
         baseurl = 'https://courses.letskodeit.com/practice'
         # driver = webdriver.Chrome() # use this if driver is added to PATH
-        driver = webdriver.Chrome(executable_path="C:\\Users\\langezai\\PycharmProjects\\drivers\\chromedriver.exe")
+        driver = webdriver.Chrome()
         driver.get(baseurl)
         elementbylinktext = driver.find_elements_by_link_text("Open Tab")
 

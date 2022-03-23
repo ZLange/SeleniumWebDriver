@@ -5,7 +5,7 @@ class RunFFTests():
 
     def testMethod(self):
         # Instantiate firefox browser command
-        driver = webdriver.Firefox(executable_path="C:\\Users\\langezai\\PycharmProjects\\drivers\\geckodriver.exe")
+        driver = webdriver.Chrome()
         # Open the provided url
         driver.get("http://www.letskodeit.com")
 

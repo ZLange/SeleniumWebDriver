@@ -6,7 +6,7 @@ class ChromeDriverWin():
 
     def test(self):
         # brings up the browser
-        driver = webdriver.Chrome(executable_path="C:\\Users\\langezai\\PycharmProjects\\drivers\\chromedriver.exe")
+        driver = webdriver.Chrome()
         # opens needed web page
         driver.get("http://www.letskodeit.com")
         time.sleep(10)
