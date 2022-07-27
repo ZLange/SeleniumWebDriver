@@ -9,15 +9,15 @@ class ClickAndSendKeys():
         driver = webdriver.Chrome()
         driver.maximize_window()
         driver.get(baseUrl)
-        driver.implicitly_wait(10)
+        # driver.implicitly_wait(10)
 
-        loginLink = driver.find_element(By.XPATH, "//div[@id='navbar']//a[@href='/sign_in']")
+        loginLink = driver.find_element(By.XPATH, "//a[normalize-space()='Sign In']")
         loginLink.click()
 
-        emailField = driver.find_element(By.ID, 'user_email')
-        emailField.send_keys('test')
+        emailField = driver.find_element(By.ID, 'email')
+        emailField.send_keys('test@test.com')
 
-        passwordField = driver.find_element(By.ID, 'user_password')
+        passwordField = driver.find_element(By.ID, 'password')
         passwordField.send_keys('test')
 
         time.sleep(3)
