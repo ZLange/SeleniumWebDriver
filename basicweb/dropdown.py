@@ -5,11 +5,11 @@ from selenium.webdriver.support.select import Select
 class DropdownSelect():
 
     def test(self):
-        baseUrl = "https://letskodeit.teachable.com/pages/practice"
-        driver = webdriver.Firefox()
+        baseUrl = "https://courses.letskodeit.com/practice"
+        driver = webdriver.Chrome()
         driver.maximize_window()
         driver.get(baseUrl)
-        driver.implicitly_wait(10)
+        # driver.implicitly_wait(10)
 
         element = driver.find_element_by_id("carselect")
         sel = Select(element)
