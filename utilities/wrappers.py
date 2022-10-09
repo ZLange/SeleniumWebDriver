@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 import chromedriver_autoinstaller # checks current chrome version and if need updates chromedriver
 import time
-from handywrapers import handyWrappers
+from handywrapers import HandyWrappers
 
 
 class UseWrappers():
@@ -15,7 +15,7 @@ class UseWrappers():
         driver.maximize_window()
         driver.implicitly_wait(10)
         # wait = WebDriverWait(driver, 30) # not used for now 
-        hw = handyWrappers(driver)
+        hw = HandyWrappers(driver)
 
         driver.get(baseUrl)
         
