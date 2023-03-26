@@ -1,14 +1,15 @@
 import logging
 # import sys
 # import os
-# logpath = "../logging_infrastructure"
-# sys.path.append(os.path.abspath(logpath))
-# import logging_infrastructure.custom_logger as cl
-from logging_infrastructure import custom_logger as cl  # should work, for now got only error ModuleNotFoundError
+# sys.path.append("C:\Users\zozol\")
+# sys.path
+import loggingInfrastructure.custom_logger as cl
+# from loggingInfrastructure import custom_logger # should work, for now got only error ModuleNotFoundError
 
 class CustLoggingDemo():
     
     log = cl.customLogger(logging.DEBUG)
+    # log = custom_logger(logging.DEBUG)
     
     def method1(self):
         self.log.debug("debug message")
