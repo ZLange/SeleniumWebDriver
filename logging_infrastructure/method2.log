@@ -1,0 +1,4 @@
+03/26/2023 03:08:55 PM - method2 - INFO: info message
+03/26/2023 03:08:55 PM - method2 - WARNING: warn message
+03/26/2023 03:08:55 PM - method2 - ERROR: error message
+03/26/2023 03:08:55 PM - method2 - CRITICAL: critical message
