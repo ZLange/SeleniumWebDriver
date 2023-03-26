@@ -1,8 +1,4 @@
 import logging
-# import sys
-# import os
-# sys.path.append("C:\Users\zozol\")
-# sys.path
 import loggingInfrastructure.custom_logger as cl
 # from loggingInfrastructure import custom_logger # should work, for now got only error ModuleNotFoundError
 
