@@ -1,7 +1,7 @@
 import pytest
 import sys
 
-sys.path.insert(0, "C:\\Users\\zozol\\PycharmProjects\\SeleniumWebDriver\\advancedTestingFramework")
+
 """
 in order to run these tests add sys import for path:
 

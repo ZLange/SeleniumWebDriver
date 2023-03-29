@@ -7,7 +7,6 @@ in the end adding file name or location where the file should be crated
 import pytest
 import sys
 
-sys.path.insert(0, "C:\\Users\\zozol\\PycharmProjects\\SeleniumWebDriver\\advancedTestingFramework")
 """
 in order to run these tests add sys import for path:
 
